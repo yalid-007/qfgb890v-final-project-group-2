@@ -216,3 +216,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific
+data/*.parquet
+data/*.zip
+data/*.csv
+!data/.gitkeep
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Output figures (keep locally, share via Overleaf)
+figures/*.pdf
+figures/*.png
+!figures/.gitkeep
