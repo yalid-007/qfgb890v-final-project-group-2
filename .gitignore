@@ -219,6 +219,7 @@ __marimo__/
 
 # Project-specific
 data/*.parquet
+data/*.pqt
 data/*.zip
 data/*.csv
 !data/.gitkeep
@@ -240,3 +241,5 @@ Thumbs.db
 figures/*.pdf
 figures/*.png
 !figures/.gitkeep
+
+
